@@ -1,0 +1,44 @@
+## FIRST TIME ##
+
+echo "# C2TC_HTML_CSS_JS" >> README.md
+
+# Create .git folder
+git init
+
+# (Optional)
+git add README.md
+
+# Check status
+git status
+
+# add single file
+git add filename.extension
+
+# add all files
+git add .
+
+# commit
+git commit -m "first commit"
+
+# create branch (Optional)
+git branch -M master
+
+# connect repository
+git remote add origin https://github.com/Akash-Dinkar-Bhujbal/C2TC_HTML_CSS_JS.git
+
+# push
+git push -u origin master
+
+## OTHERWISE ##
+
+# Check status
+git status
+
+# add all files
+git add .
+
+# commit
+git commit -m "second commit"
+
+# push
+git push
