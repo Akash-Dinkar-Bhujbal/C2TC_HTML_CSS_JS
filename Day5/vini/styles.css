@@ -1,0 +1,65 @@
+.container
+{
+  text-align: center;
+  margin:auto;
+  width:70%;
+}
+.dice
+{
+text-align: center;
+display: inline-block;
+}
+
+body
+{
+/*background-color: #393E46;*/
+  background: darkblue;
+}
+
+h1
+{
+  font-family: 'cambria',cursive;
+  font-size: 4rem;
+  /*color:#4ECCA3;*/
+  color: yellowgreen;
+}
+
+p
+{
+  margin: 0;
+  font-size: 2rem;
+  /*color: #4ECCA3;*/
+  color: yellow;
+  font-family: 'Cambria', cursive;
+}
+
+img
+{
+  width: 80%;
+}
+button{
+  margin-top: 30px;
+  background: purple;
+  border: none;
+  outline: 1px solid violet;
+  color: white;
+  font-size: 15px;
+  padding: 15px 0;
+  width: 200px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+button:hover {
+  background-color: black;
+  color: yellow;
+}
+
+footer{
+  color: #EEEEEE;
+  text-align: center;
+  font-family: cambria,cursive;
+  margin-top: auto;
+
+}
