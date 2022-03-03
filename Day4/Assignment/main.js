@@ -34,9 +34,11 @@ b1.addEventListener("click", function(e)
   e.preventDefault();
   if(nameInput.value===``||emailInput.value===``||usnInput.value===``||addressInput.value===``)
   {
+    // setTimeout(() => msg.remove(), 3000);
     console.log(`Please enter all fields`);
     msg.classList.add('error');
     msg.innerHTML = 'Please enter all fields';
+    // setTimeout(() => msg.remove());
     setTimeout(() => msg.remove(), 3000);
 
   }else {
@@ -56,18 +58,18 @@ b1.addEventListener("click", function(e)
       let li = document.createElement('li');
 
     // Add text node with input values
-    li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}: ${usnInput.value}: ${homeaddressInput.value}`));
+    li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}: ${usnInput.value}: ${addressInput.value}`));
 
     // Append to ul
-    userList1.appendChild(li);
+    userList.appendChild(li);
     // Clear fields
     nameInput.value = '';
     emailInput.value = '';
     usnInput.value = '';
-    homeaddressInput.value = '';
+    addressInput.value = '';
   }
 
-  console.log('User added')
+  console.log('User added');
 }
 
   // alert("hii");
